@@ -1,10 +1,4 @@
 import torch
-'''device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
-print(device)
-print(torch.cuda.is_available())
-print(torch.cuda.current_device())
-print(torch.cuda.get_device_name(1))
-print(torch.cuda.device_count())'''
 from einops import rearrange
 import torch
 from torch import nn
