@@ -3,8 +3,9 @@ from einops import rearrange
 import torch
 from torch import nn
 from utils import *
-
 from einops.layers.torch import Rearrange
+
+
 #spatial_attention
 class CA_Block(nn.Module):
     def __init__(self, channel, h, w,reduction=16):
